@@ -85,7 +85,7 @@
                     } else if ($scope.stringStartsWith(direction, 'right')) {
                         pos.left = elBounding.left + elBounding.width + (arrow_padding / 2) + scrollLeft;
                     } else if ($scope.stringContains(direction, 'left')) {
-                        pos.left = elBounding.left - tooltipBounding.width + arrow_padding + scrollLeft;
+                        pos.left = elBounding.left - tooltipBounding.width + arrow_padding + scrollLeft + 19;
                     } else if ($scope.stringContains(direction, 'right')) {
                         pos.left = elBounding.left + elBounding.width - arrow_padding + scrollLeft;
                     } else {
